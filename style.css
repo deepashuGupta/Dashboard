@@ -201,7 +201,7 @@ button i{
 
 #graph{
     width: 70%;
-    height: 100%;
+    height: 90vh;
     /* background-color: rgb(240, 240, 240); */
     padding: 0 40px;
 }
@@ -362,11 +362,11 @@ button i{
     stroke: rgb(63, 173, 128);
 }
 
-.sec2:nth-child(3) .box svg circle:nth-child(2){
-    stroke-dashoffset: calc(285 - (285 * 95) / 100) !important;
+.sec2:nth-child(2) .box svg circle:nth-child(2){
+    stroke-dashoffset: calc(285 - (285 * 90) / 100) !important;
 }
 
-.sec2:nth-child(4) .box svg circle:nth-child(2){
+.sec2:nth-child(3) .box svg circle:nth-child(2){
     stroke-dashoffset: calc(285 - (285 * 59) / 100) !important;
 }
 
@@ -394,14 +394,14 @@ button i{
 #strategy{
     padding: 0 25px;
     width: 30%;
-    height: 100%;
+    height: 90vh;
     /* background-color: rgb(221, 221, 221); */
 }
 
 #strategytop{
     padding: 15px 20px;
     width: 100%;
-    height: 350px;
+    min-height: 350px;
     background-color: rgb(247, 247, 247);
     border-radius: 7px;
 }
@@ -572,6 +572,7 @@ margin-top: -8px;
     #graph{
         width: 100%;
         padding: 0 0;
+        margin-bottom: 50px;
     }
 
     #goal{
@@ -622,6 +623,10 @@ margin-top: -8px;
         display: initial;
         position: relative;
         top: 255px;
+    }
+
+    #strategytop{
+        width: 100%;
     }
 
     #strategybtm{
