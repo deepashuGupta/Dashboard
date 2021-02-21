@@ -137,7 +137,7 @@ i{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 10px 25px;
+    padding: 10px 20px;
     width: 100%;
     height: 300px;
     /* background-color: antiquewhite; */
@@ -286,9 +286,12 @@ button i{
 }
 
 #maincircle{
+    /* min-height: 170px; */
+    /* width: 70%; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    /* background-color: rebeccapurple; */
 }
 
 .sec2{
@@ -370,6 +373,7 @@ button i{
     stroke-dashoffset: calc(285 - (285 * 59) / 100) !important;
 }
 
+
 .secbox{
     display: flex;
     align-items: center;
@@ -401,7 +405,7 @@ button i{
 #strategytop{
     padding: 15px 20px;
     width: 100%;
-    min-height: 350px;
+    height: 350px;
     background-color: rgb(247, 247, 247);
     border-radius: 7px;
 }
@@ -534,6 +538,7 @@ margin-top: -8px;
 
     #profile{
         width: 100%;
+        height: 130vh;
         padding: 10px 20px;
         background-color: white;
     }
@@ -562,8 +567,6 @@ margin-top: -8px;
     }
 
     #details{
-        position: absolute;
-        top: 130vh;
         width: 100%;
         display: initial;
         padding: 10px 20px;
@@ -571,8 +574,10 @@ margin-top: -8px;
 
     #graph{
         width: 100%;
-        padding: 0 0;
-        margin-bottom: 50px;
+        /* padding: 0 0; */
+        /* margin-bottom: 50px; */
+        height: 140vh;
+        padding: 10px 20px;
     }
 
     #goal{
@@ -610,9 +615,11 @@ margin-top: -8px;
     }
 
     #maincircle{
+        width: 100%;
         display: flex;
         justify-content: space-around;
         align-items: center;
+        /* background-color: rebeccapurple; */
     }
 
     .ressec{
@@ -620,12 +627,16 @@ margin-top: -8px;
     }
 
     #strategy{
+        width: 100%;
+        height: 100vh;
+        padding: 10px;
         display: initial;
         position: relative;
-        top: 255px;
     }
 
     #strategytop{
+        /* position: absolute;
+        bottom: 0; */
         width: 100%;
     }
 
